@@ -1,0 +1,10 @@
+# LLMs (Large Language Models)
+
+1. ChatGPT (OpenAi)
+2. Gemini (Google)
+3. Claude (Anthropic)
+4. Grok (X)
+5. Copilot (Microsoft)
+6. Deepseek (Deepseek Cloud)
+7. Qwen (Alibaba Cloud)
+8. Llama (Meta)
