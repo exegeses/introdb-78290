@@ -8,7 +8,7 @@ create table marcas
 
 create table categorias
 (
-    idCateroria tinyint unsigned primary key auto_increment,
+    idCategoria tinyint unsigned primary key auto_increment,
     categoria varchar(45) unique not null
 );
 
@@ -23,5 +23,5 @@ create table productos
     imagen varchar(45) not null,
     activo boolean not null,
     foreign key(idMarca) references marcas (idMarca),
-    foreign key(idCategoria) references categorias (idCateroria)
+    foreign key(idCategoria) references categorias (idCategoria)
 );
